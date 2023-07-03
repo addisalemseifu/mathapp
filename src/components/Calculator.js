@@ -1,7 +1,6 @@
 import { React } from 'react';
 import '../index.css';
 import Output from './Output';
-
 import Buttons from './Buttons';
 
 export default function Calculator() {
