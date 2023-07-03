@@ -1,7 +1,9 @@
+import CalcPage from './components/CalcPage';
+
 function App() {
   return (
-    <div className="App">
-      Hellow
+    <div className="main-container">
+      <CalcPage />
     </div>
   );
 }
