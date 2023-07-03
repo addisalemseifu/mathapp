@@ -29,7 +29,7 @@
 
 # 📖  Fully Working Calculator Website Project Using React.<a name="about-project"></a>
 
-> This is the UI part of the calculator app.
+> This is the UI part of the calculator app with all functionalities added to the project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -80,6 +80,13 @@
   <summary>npm</summary>
   <ul>
     <li><a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">npm</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Big.js</summary>
+  <ul>
+    <li><a href="https://www.npmjs.com/package/big.js">big.js</a></li>
   </ul>
 </details>
 
