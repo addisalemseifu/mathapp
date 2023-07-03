@@ -3,10 +3,11 @@ import '../index.css';
 
 export default function Buttons({
   // eslint-disable-next-line react/prop-types
-  symbol, className,
+  symbol, className, handleClick,
 }) {
   return (
     <button
+      onClick={() => handleClick(symbol)}
       type="button"
       className={className}
     >
