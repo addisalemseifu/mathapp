@@ -29,7 +29,7 @@
 
 # 📖  Fully Working Calculator Website Project Using React.<a name="about-project"></a>
 
-> This is the setup of calculator app.
+> This is the UI part of the calculator app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -121,7 +121,7 @@ Open the project using a live server extension that can be found into your code 
 Install npm packages with:
 
 ```
-  cd my-calc
+  cd mathapp
 
 ```
 
