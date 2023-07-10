@@ -154,15 +154,6 @@ Feel free to check the [issues page](https://github.com/addisalemseifu/mathapp/i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
-## ❓ FAQ
-
-- What is this for?
-
-    This is a React.js project created by Microverse to allow students learn and practice React.js.
-
-- Can I copy this project?
-
-    Your welcome, copy this project and let us know if you need something.
 
 ## 📝 License <a name="license"></a>
 
