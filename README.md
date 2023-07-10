@@ -8,108 +8,54 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-  - [🚀 Presentation Link](#Presentation-link)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  Fully Working Calculator Website Project Using React.<a name="about-project"></a>
+# 📖 [Math magicians] <a name="about-project"></a>
 
-> This is the User Interface of React App with the calculator fully working and some random motivational quotes form a free API called API Ninjas. We also used Routing to navigate inside the website.
+> This is a math magician's app built with HTML, CSS, and REACT in this app you can make some calculations math like addition and division..etc, also I used the external API to fetch some quotes for the app using the use effect hook.
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- HTML
-- CSS
-- Javascript
-- Webpack
-- React
-- API Ninjas
-- React Router
-
-<!--  KEY FEATURES -->
-
-## 🔭 Key Features <a name="key-features"></a>
-
-- [ ] **[Javascript]**
-- [ ] **[More_Pages]**
-- [ ] **[More_Media]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://quotes-app-3lns.onrender.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Node.js</summary>
-  <ul>
-    <li><a href="https://nodejs.org/en">Node.js</a></li>
-  </ul>
-</details>
 
 <details>
-  <summary>React</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://create-react-app.dev/">React</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>npm</summary>
-  <ul>
-    <li><a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">npm</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Big.js</summary>
-  <ul>
-    <li><a href="https://www.npmjs.com/package/big.js">big.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>API Ninjas</summary>
-  <ul>
-    <li><a href="https://api-ninjas.com/api/quotes">API Ninjas</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>React Router </summary>
-  <ul>
-    <li><a href="https://reactrouter.com/">React Router </a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
+- [x] Set up the project using (CRA) create-react-app👍.
+- [x] Remove the boilerplate from the project after setting up💯.
+- [x] Use the react router dom for the navigation.
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+
 
 To get a local copy up and running, follow these steps.
 
@@ -117,44 +63,25 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Web Browser
-- Code Editor: [visual Studio code](https://code.visualstudio.com/)
-- node.js(preferable).
-- GitHub/Git.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```
-https://github.com/addisalemseifu/my-calc.git
 
+```sh
+  cd my-folder
+  git clone git@github.com:addisalemseifu/mathapp.git
 ```
 
-Open a index.html file with your code editor of your choice and/or a browser of your choice.
-
-```
-Open the project using a live server extension that can be found into your code editor.
-```
 
 ### Install
 
-Install npm packages with:
-
-```
+Install this project with:
+```sh
   cd mathapp
-
-```
-
-```
   npm install
 ```
-
-```
-  npm run build
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
 
@@ -162,6 +89,16 @@ To run the project, execute the following command:
 
 ```sh
   npm start
+```
+
+
+### Run tests
+
+To run tests for the linter, run the following command:
+
+```sh
+ npx hint .
+npx eslint . --fix
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,19 +113,21 @@ To run the project, execute the following command:
 - Twitter: [@Addisalem Seifu](https://twitter.com/addisalems92518)
 - LinkedIn: [addisalem seifu](https://www.linkedin.com/in/addisalemseifu/)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Javascript]**
-- [ ] **[More_Pages]**
-- [ ] **[More_Media]**
+
+
+- [x] I will test this app using the library from React or maybe use Jest to test it👌💯.
+- [x] Add the chatbot for the project
+- [x] Add contact form for the project 🚀
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 
@@ -196,7 +135,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/addisalemseifu/mathapp/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,22 +143,29 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Please give a ⭐️ if you like this project! 🤝
+- If you like this project you can give me a star 😊 just to prove my app that it is useful for everyone and the users can use it to calculate anything 💯.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments
 
-- Thanks to [Microverse](https://www.microverse.org/) for giving this opportunity to learn ...
-- Code Reviewers & Coding Partners.
-- Hat tip to anyone whose code was used.
+- I would like to thank Microverse for this opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
+## ❓ FAQ
+
+- What is this for?
+
+    This is a React.js project created by Microverse to allow students learn and practice React.js.
+
+- Can I copy this project?
+
+    Your welcome, copy this project and let us know if you need something.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/addisalemseifu/mathapp/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
