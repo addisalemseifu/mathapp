@@ -9,9 +9,6 @@ function App() {
   return (
     <div className="main-container">
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="calculator/" element={<CalcPage />} />
-        <Route path="quote/" element={<QuotePage />} />
       </Routes>
     </div>
   );
