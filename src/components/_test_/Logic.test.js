@@ -1,5 +1,6 @@
 import operate from '../../logic/operate';
 import calculate from '../../logic/calculate';
+
 describe('Test the calculate.js file', () => {
   const numberOne = 10;
   const numberTwo = 5;
